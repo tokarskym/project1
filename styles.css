@@ -199,11 +199,11 @@ div.specialist-description:nth-of-type(2n) {
 .offer-box {
     width: 200px; 
     height: 198px; 
-    display: flex;
-justify-content: center;
-align-items: center;
     background-color: #F1F1F1; 
     transition-duration: 0.5s; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .offer-description { 
@@ -218,7 +218,7 @@ align-items: center;
     width: 27px; 
     height: 27px; 
     position: absolute; 
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1; 
     top: -12px; 
     left: -12px;
 }
