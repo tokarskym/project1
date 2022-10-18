@@ -192,18 +192,18 @@ div.specialist-description:nth-of-type(2n) {
     position: relative; 
 }
 
+.offer-box:hover { 
+    transform: scale(1.05);
+}
+
 .offer-box {
-    background-color: #F1F1F1; 
-    width: 200px; 
-    height: 198px; 
     display: flex;
 	justify-content: center;
 	align-items: center;
+    background-color: #F1F1F1; 
+    width: 200px; 
+    height: 198px; 
     transition-duration: 0.5s; 
-}
-
-.offer-box:hover { 
-    transform: scale(1.05);
 }
 
 .offer-description { 
